@@ -30,3 +30,6 @@ CUDA_VISIBLE_DEVICES=0 python main.py --phase test --img_width 2048 --img_height
 ```
 Adapted test images will be outputted to `./test/` (can be changed by passing `--test_dir=your_dir`).
 
+### Reference
+- The TensorFlow implementation of CycleGAN, https://github.com/xhujoy/CycleGAN-tensorflow
+
